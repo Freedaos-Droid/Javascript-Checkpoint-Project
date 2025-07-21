@@ -25,3 +25,9 @@ function findMax(arr) {
 function findMin(arr) {
   return Math.min(...arr);
 }
+
+// function to find the sum of an array 
+function sumArray(arr) {
+  return arr.reduce((sum, num) => sum + num, 0);
+}
+
