@@ -35,3 +35,11 @@ function sumArray(arr) {
 function filterGreaterThanFive(arr) {
   return arr.filter(num => num > 5);
 }
+
+// Mathematial Functions
+// function to factorial
+function factorial(n) {
+  if (n < 0) return undefined; // factorial not defined for negative numbers
+  if (n === 0 || n === 1) return 1;
+  return n * factorial(n - 1);
+}
