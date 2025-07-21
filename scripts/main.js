@@ -16,4 +16,12 @@ function capitalizeWords(sentence) {
     .join(' ');
 }
 
+// Array Functions 
+// function to find max. and min.
+function findMax(arr) {
+  return Math.max(...arr);
+}
 
+function findMin(arr) {
+  return Math.min(...arr);
+}
