@@ -30,4 +30,8 @@ function findMin(arr) {
 function sumArray(arr) {
   return arr.reduce((sum, num) => sum + num, 0);
 }
-
+ 
+// function to filter array
+function filterGreaterThanFive(arr) {
+  return arr.filter(num => num > 5);
+}
